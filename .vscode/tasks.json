@@ -1,0 +1,9 @@
+{
+	"label": "gcc",
+	"type": "shell",
+	"command": "gcc `pkg-config --cflags --libs gtk+-3.0` Basis.c -o Basis -lPJ_RPI",
+    "version": "2.0.0",
+    "problemMatchers": [
+		"$gcc"
+	]
+}
